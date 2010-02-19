@@ -10,7 +10,7 @@ yard-parameters is a plugin for YARD for parsing
 
 ## Features
 
-* Parses `parameter` class and instance method-calls.
+* Parses `parameter :name` class method-calls.
 
 ## Requirements
 
