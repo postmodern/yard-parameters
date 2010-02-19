@@ -18,13 +18,13 @@ module YARD
           register MethodObject.new(nobj, name, :class) do |o|
             o.visibility = :public
             o.source = statement.source
-            o.signature = "def #{name}"
+            o.signature = "def #{nobj}.#{name}"
           end
 
           register MethodObject.new(nobj, "#{name}=", :class) do |o|
             o.visibility = :public
             o.source = statement.source
-            o.signature = "def #{name}=(value)"
+            o.signature = "def #{nobj}.#{name}=(value)"
             o.parameters = [['value', nil]]
           end
 
