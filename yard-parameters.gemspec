@@ -29,9 +29,12 @@ Gem::Specification.new do |s|
     "lib/yard-parameters/legacy.rb",
     "lib/yard-parameters/legacy/parameter_handler.rb",
     "lib/yard-parameters/parameter_handler.rb",
-    "spec/spec.opts",
+    "spec/helpers/examples.rb",
+    "spec/helpers/examples/bad_parameter.rb",
+    "spec/helpers/examples/simple_parameter.rb",
+    "spec/parameter_handler_spec.rb",
     "spec/spec_helper.rb",
-    "spec/yard-parameters_spec.rb"
+    "yard-parameters.gemspec"
   ]
   s.has_rdoc = %q{yard}
   s.homepage = %q{http://github.com/postmodern/yard-parameters}
@@ -41,7 +44,10 @@ Gem::Specification.new do |s|
   s.summary = %q{A plugin for YARD for parsing parameters.}
   s.test_files = [
     "spec/spec_helper.rb",
-    "spec/yard-parameters_spec.rb"
+    "spec/helpers/examples.rb",
+    "spec/helpers/examples/simple_parameter.rb",
+    "spec/helpers/examples/bad_parameter.rb",
+    "spec/parameter_handler_spec.rb"
   ]
 
   if s.respond_to? :specification_version then
