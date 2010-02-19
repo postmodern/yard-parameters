@@ -1,9 +1,8 @@
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
-require 'yard-parameters'
+require 'rubygems'
+gem 'rspec', '>=1.3.0'
 require 'spec'
-require 'spec/autorun'
 
-Spec::Runner.configure do |config|
-  
-end
+gem 'yard', '>=0.4.0'
+require 'yard'
+
+include YARD
