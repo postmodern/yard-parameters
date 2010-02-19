@@ -5,7 +5,7 @@ module YARD
     module Legacy
       class ParameterHandler < YARD::Handlers::Ruby::Legacy::Base
 
-        handles /\Aparameter\s/
+        handles /\Aparameter\s+:/
 
         def process
           nobj = namespace
