@@ -7,7 +7,6 @@ module YARD
       handles method_call(:parameter)
 
       def process
-        obj = statement.parameters(false).first
         nobj = namespace
         mscope = scope
         name = statement.parameters[0].first
