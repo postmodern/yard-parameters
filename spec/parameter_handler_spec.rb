@@ -34,10 +34,19 @@ describe "ParameterHandler" do
       parse_file :bad_parameter
     end
 
-    it "should not define methods for variables named 'parameter'" do
+    it "should not define class reader methods for variables" do
       yard('BadParameter.x').should be_nil
+    end
+
+    it "should not define class writer methods for variables" do
       yard('BadParameter.x=').should be_nil
+    end
+
+    it "should not define instance reader methods for variables" do 
       yard('BadParameter#x').should be_nil
+    end
+
+    it "should not define instance writer methods for variables" do
       yard('BadParameter#x=').should be_nil
     end
   end
