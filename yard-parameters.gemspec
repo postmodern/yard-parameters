@@ -30,8 +30,8 @@ Gem::Specification.new do |s|
     "lib/yard-parameters/legacy/parameter_handler.rb",
     "lib/yard-parameters/parameter_handler.rb",
     "spec/helpers/examples.rb",
-    "spec/helpers/examples/bad_parameter.rb",
-    "spec/helpers/examples/simple_parameter.rb",
+    "spec/helpers/examples/bad_parameter.rb.txt",
+    "spec/helpers/examples/simple_parameter.rb.txt",
     "spec/parameter_handler_spec.rb",
     "spec/spec_helper.rb",
     "yard-parameters.gemspec"
@@ -45,8 +45,6 @@ Gem::Specification.new do |s|
   s.test_files = [
     "spec/spec_helper.rb",
     "spec/helpers/examples.rb",
-    "spec/helpers/examples/simple_parameter.rb",
-    "spec/helpers/examples/bad_parameter.rb",
     "spec/parameter_handler_spec.rb"
   ]
 
