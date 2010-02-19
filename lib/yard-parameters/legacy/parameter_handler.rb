@@ -3,7 +3,7 @@ require 'yard'
 module YARD
   module Parameters
     module Legacy
-      class ParameterHandler < Base
+      class ParameterHandler < YARD::Handlers::Ruby::Legacy::Base
 
         handles /\Aparameter\s/
 

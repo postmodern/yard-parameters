@@ -2,7 +2,7 @@ require 'yard'
 
 module YARD
   module Parameters
-    class ParameterHandler < Base
+    class ParameterHandler < YARD::Handlers::Ruby::Base
 
       handles method_call(:parameter)
 
