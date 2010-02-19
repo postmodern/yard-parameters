@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{yard-parameters is a plugin for YARD for parsing parameters.}
   s.email = %q{postmodern.mod3@gmail.com}
   s.extra_rdoc_files = [
+    "ChangeLog.md",
     "LICENSE.txt",
     "README.md"
   ]
@@ -21,6 +22,7 @@ Gem::Specification.new do |s|
     ".gitignore",
     ".specopts",
     ".yardopts",
+    "ChangeLog.md",
     "LICENSE.txt",
     "README.md",
     "Rakefile",
