@@ -14,7 +14,7 @@ yard-parameters is a plugin for YARD for parsing
 
 ## Requirements
 
-* [yard](http://yardoc.org/) >= 0.5.3
+* [yard](http://yardoc.org/) >= 0.4.0
 
 ## Install
 
