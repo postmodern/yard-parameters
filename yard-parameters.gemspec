@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["postmodern"]
-  s.date = %q{2010-02-19}
+  s.date = %q{2010-02-20}
   s.description = %q{yard-parameters is a plugin for YARD for parsing parameters.}
   s.email = %q{postmodern.mod3@gmail.com}
   s.extra_rdoc_files = [
@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
-    ".document",
     ".gitignore",
     ".specopts",
     ".yardopts",
