@@ -1,5 +1,3 @@
-require 'yard'
-
 module YARD
   module Parameters
     class ParameterHandler < YARD::Handlers::Ruby::Base
