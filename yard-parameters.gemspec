@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{yard-parameters}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["postmodern"]
-  s.date = %q{2010-02-18}
+  s.date = %q{2010-02-19}
   s.description = %q{yard-parameters is a plugin for YARD for parsing parameters.}
   s.email = %q{postmodern.mod3@gmail.com}
   s.extra_rdoc_files = [
