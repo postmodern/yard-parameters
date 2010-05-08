@@ -7,7 +7,7 @@ require 'yard-parameters/legacy/parameter_handler'
 describe "ParameterHandler" do
   include Helpers::Examples
 
-  describe "valid" do
+  context "valid" do
     before(:all) do
       parse_file :simple_parameter
     end
@@ -29,7 +29,7 @@ describe "ParameterHandler" do
     end
   end
 
-  describe "invalid" do
+  context "invalid" do
     before(:all) do
       parse_file :bad_parameter
     end
