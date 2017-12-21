@@ -20,6 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = "postmodern.mod3@gmail.com"
   gem.homepage = "http://github.com/postmodern/yard-parameters"
   gem.authors = ["postmodern"]
+  gem.add_dependency 'yard', '>= 0.4.0'
   gem.has_rdoc = 'yard'
 end
 
