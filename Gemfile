@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'yard',	'~> 0.5.3', :group => [:development, :runtime]
+gem 'yard',	'>= 0.4.0', :group => [:development, :runtime]
 
 group(:development) do
   gem 'rake',			'~> 0.8.7'
